@@ -4,7 +4,7 @@ import Layout from '../components/Layout';
 import styles from '../components/Styling.module.css';
 
 export default function Home() {
-  return (<Layout>
+  return (<Layout onSearch={undefined}>
     <img src={"banner1.jpg"}height={480}width={1480}></img>
    <div className={styles.banner}> <img src={"fashionhaul.jpg"}height={450}width={900}></img>
     <img src={"salel.jpg"}height={450}width={700}></img></div>
